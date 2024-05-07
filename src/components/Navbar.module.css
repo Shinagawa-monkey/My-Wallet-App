@@ -1,0 +1,27 @@
+/* navbar styles */
+.img,
+.img-dark {
+  width: 2em;
+  height: 2em;
+}
+
+.img-dark {
+  filter: grayscale(10%);
+}
+
+.nav-header,
+.nav-btn-link {
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.my-button {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: #198754;
+}
+.my-button:hover {
+  color: #198754;
+  background-color: #f8f9df;
+  border-color: #f8f9df;
+}

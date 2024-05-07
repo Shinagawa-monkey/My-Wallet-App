@@ -1,0 +1,52 @@
+{
+  "name": "my-wallet",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "My Wallet - a web app for managing transactions. Track, edit, and delete entries effortlessly.",
+  "keywords": [
+    "wallet",
+    "finance",
+    "transactions",
+    "react",
+    "vite",
+    "firebase"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "author": "Elena Shatalova <elenashatalova.it@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://my-wallet-site.web.app/",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "firebase": "8.5",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-router-bootstrap": "^0.26.2",
+    "react-router-dom": "^6.9.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jsdom": "^21.1.1",
+    "prettier": "^2.8.4",
+    "vite": "^4.1.0",
+    "vitest": "^0.29.2"
+  }
+}

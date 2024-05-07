@@ -1,0 +1,20 @@
+.tooltip [class$='inner'] {
+  font-weight: 600;
+  background-color: #333;
+  color: #e4e4e4;
+}
+
+.tooltip [class$='arrow'] {
+  visibility: hidden;
+}
+
+/* dark theme */
+.darkTooltip [class$='inner'] {
+  font-weight: 600;
+  background-color: #e4e4e4;
+  color: #333;
+}
+
+.darkTooltip [class$='arrow'] {
+  visibility: hidden;
+}

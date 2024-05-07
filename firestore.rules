@@ -1,0 +1,12 @@
+//after rules are done in terminal: firebase deploy --only firestore
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /transactions/{document=**} {
+      //only auth can create transaction records
+      allow create: if request.auth != null;
+      //logged in user uid must match the document creator to read, update & delete (resource.data.propertyName represent to document in the collection) 
+      allow read, write, update, delete: if request.auth.uid == resource.data.uid;
+    }
+  }
+}

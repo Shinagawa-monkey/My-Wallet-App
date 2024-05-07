@@ -1,0 +1,20 @@
+.page-body {
+  max-width: 422px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.page-body img {
+  min-width: 50%;
+}
+
+.my-button {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: #198754;
+}
+.my-button:hover {
+  color: #198754;
+  background-color: #f8f9df;
+  border-color: #f8f9df;
+}

@@ -1,0 +1,107 @@
+.container {
+  margin: 60px auto;
+}
+
+.content {
+  min-width: 360px;
+}
+
+.edit1,
+.edit2 {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.edit1-dark,
+.edit2-dark {
+  width: 1.2em;
+  height: 1.2em;
+  filter: invert(100%);
+}
+
+/* transaction form styles */
+.form {
+  background-color: #effaf0;
+  border: 1px solid #1f9751;
+}
+
+.form-dark {
+  background-color: #1f9751;
+  border: 1px solid #effaf0;
+}
+
+.my-button {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: #198754;
+}
+.my-button:hover {
+  color: #198754;
+  background-color: #f8f9df;
+  border-color: #f8f9df;
+}
+
+.form-control-dark {
+  background-color: #32383e;
+  color: #f8f9df;
+}
+
+.form-control-dark:focus {
+  background-color: #23282d;
+  color: #f8f9df;
+  outline: none;
+  border-color: #3b434b;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.form-control-dark:hover {
+  background-color: #2c3136;
+  color: #f8f9df;
+}
+
+/* change the style of arrows/spinners from input type number */
+/* Chrome */
+input[type='number'].form-control-dark::-webkit-outer-spin-button,
+input[type='number'].form-control-dark::-webkit-inner-spin-button {
+  color: #f8f9df;
+  opacity: 0.5;
+}
+/* Firefox */
+input[type='number'].form-control-dark::-moz-number-spin-up,
+input[type='number'].form-control-dark::-moz-number-spin-down {
+  color: #f8f9df;
+  opacity: 0.5;
+}
+/* Internet Explorer and Microsoft Edge */
+input[type='number'].form-control-dark::-ms-spin {
+  color: #f8f9df;
+  opacity: 0.5;
+}
+
+/* transaction list styles */
+.item-list {
+  background-color: #effaf0;
+  border: 1px solid #1f9751;
+}
+
+.item-list-dark {
+  background-color: #1f9751;
+  border: 1px solid #effaf0;
+}
+
+.delete-button {
+  border-color: #f8f9df;
+  color: #f8f9df;
+  background-color: #dc3545;
+}
+.delete-button:hover {
+  color: #dc3545;
+  background-color: #f8f9df;
+  border-color: #f8f9df;
+}
+
+@media screen and (max-width: 360px) {
+  .content {
+    min-width: 100vw;
+  }
+}
