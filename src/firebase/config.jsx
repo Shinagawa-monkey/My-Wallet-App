@@ -3,12 +3,12 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAWgCFlEjqzLKSzaZykuUJj8PaItSUKMwo',
-  authDomain: 'my-wallet-site.firebaseapp.com',
-  projectId: 'my-wallet-site',
-  storageBucket: 'my-wallet-site.appspot.com',
-  messagingSenderId: '270768100443',
-  appId: '1:270768100443:web:c0124e0ae54093305a9b7e',
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_DOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MSI,
+  appId: process.env.APP_ID,
 }
 
 //init firebase
