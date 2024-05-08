@@ -1,6 +1,6 @@
 # Code of Conduct
 
-As contributors and maintainers of the Tasty Treats project, we pledge to create a welcoming and inclusive environment for everyone. We value the contributions of all individuals and are committed to fostering an open and respectful community.
+As contributors and maintainers of the My Wallet project, we pledge to create a welcoming and inclusive environment for everyone. We value the contributions of all individuals and are committed to fostering an open and respectful community.
 
 ## Our Standards
 
