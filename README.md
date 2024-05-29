@@ -2,7 +2,7 @@
 
 My Wallet is an elegant financial transaction management app designed to simplify and streamline your financial tracking experience. With its intuitive interface, you can easily manage, track, edit, and delete transactions with precision. Built with React, Firebase, Cloud Firestore, and Bootstrap, My Wallet ensures a seamless user experience for efficient financial management.
 
-## Why Tasty Treats?
+## Why My Wallet?
 
 My Wallet was created with the motivation to provide users with a simple yet powerful tool for managing their financial transactions. Its goal is to solve the challenges of tracking and organizing transactions, making it easier for users to stay on top of their finances. Whether you're tracking expenses, managing budgets, or analyzing spending patterns, My Wallet offers a comprehensive solution.
 
